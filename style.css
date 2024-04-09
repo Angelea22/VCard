@@ -1,0 +1,156 @@
+body {
+    background-color: black;
+    background-image: url(design.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    margin: 0 auto;
+    position: inherit;
+    /* overflow: hidden; */
+    background-origin: border-box;
+    background-attachment: fixed;
+    /* z-index: -1; */
+}
+
+img.white {
+    width: 350px;
+    height: 3px;
+    left: 0;
+    margin-top: 40px;
+    
+    
+}
+
+p.aboutme {
+    position: absolute;
+    max-width: 300px;
+    margin-top: 210px;
+    margin-left: 200px;
+    text-align: justify;
+}
+
+p {
+    font-family: "Raleway";
+    color: white;
+
+}
+
+p.name {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 27px;
+    letter-spacing: 2.5px;
+    line-height: 0.1;
+}
+
+p.work {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 75px;
+    letter-spacing: 1px;
+}
+
+p.email {
+    margin: 0;
+    align-items: center;
+    display: flex;
+    position: relative;
+    padding: 5px 15px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 8px;
+
+}
+
+p.mobile {
+    margin: 0;
+    align-items: center;
+    display: flex;
+    position: relative;
+    padding: 5px 15px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 8px;
+}
+
+p.address {
+    margin: 0;
+    align-items: center;
+    display: flex;
+    position: relative;
+    padding: 5px 15px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 8px;
+    
+}
+
+img.email {
+    width: 20px;
+    filter: invert(100%);
+    display: flex;
+    margin-right: 10px;
+   
+}
+
+img.mobile {
+    width: 17px;
+    filter: invert(100%);
+    display: flex;
+    margin-right: 10px;
+    
+}
+
+img.address {
+    width: 18px;
+    filter: invert(100%);
+    display: flex;
+    margin-right: 10px;
+    
+}
+
+img.blue {
+    width: 550px;
+    height: 600px;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 40%;
+    filter: blur(30px);
+    
+}
+
+img.linkedin {
+    width: 50px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 985px;
+    margin-top: 260px;
+    opacity: 90%;
+}
+
+img.qr {
+    width: 17%;
+    position: absolute;
+    /* display: flex; */
+    margin-left: 900px;
+    margin-top: 175px;
+    opacity: 80%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 20);
+}
+
+footer {
+    font-size: 12px;
+    position: absolute;
+    display: flex;
+    left: 0;
+    margin-top: 505px;
+    margin-left: 60px;
+    gap: 25px;
+
+}
